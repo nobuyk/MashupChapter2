@@ -78,6 +78,7 @@ function setMarkers(res) {
 
 	if (! res.total_hit_count) {
 		_d("info", "該当情報が登録されていません。エラー番号:" + res.error.code);
+	
 	}
 	else {
 		_d("info", "検索ヒット数&nbsp;" + res.total_hit_count + "&nbsp;件");
