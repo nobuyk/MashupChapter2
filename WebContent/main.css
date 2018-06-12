@@ -1,0 +1,95 @@
+@charset "UTF-8";
+body {
+	font-size: 9pt;
+	color: #808080;
+}
+
+div#mymap {
+	width: 720px;
+	height: 512px;
+}
+
+div#info {
+	width: 720px;
+	height: 24px;
+	background-color: gray;
+	color: white;
+	margin: 4px 0px;
+	padding-top: 4px;
+	font-size: 13pt;
+	text-align: center;
+}
+
+div#menu {
+	position: absolute;
+	top: 10px;
+	left: 80px;
+	width: 216px;
+	height: 168px;
+	background-color: white;
+	color: #606060;
+	font-size: 9pt;
+	border: solid black 1px;
+	display: none;
+}
+
+div#menu-top {
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	background-color: #606060;
+	color: white;
+	font-size:13pt;
+	font-weight: bold;
+}
+
+div.menu-line {
+	width: 216px;
+	height: 23px;
+	line-height: 23px;
+	border-bottom: solid #606060 1px;
+	text-indent:.5em;
+	white-space: nowrap;
+	cursor: pointer
+}
+
+div.menu-eline {
+	height: 23px;
+	line-height: 23px;
+	border-bottom: solid #606060 1px;
+	text-indent:.5em;
+	background-color: #b0b0b0;
+}
+
+div#menu-ctrl {
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	background-color: #ffff80;
+}
+
+td {
+	font-size: 9pt;
+	vertical-align: top;
+	border-bottom: solid #c0c0c0 2px;
+	padding: 4px 0px;
+	color: #404040;
+}
+
+th {
+	font-size: 12pt;
+	color: white;
+	background-color: #606060;
+}
+
+span {
+	border-bottom: solid red 1px;
+	cursor: pointer;
+}
+
+div#photocnt {
+    padding: 8px;
+	border: solid black 1px;
+	font-size: 9pt;
+	color: #808080;
+}
