@@ -31,7 +31,7 @@ function load() {
 		map.addControl(new GScaleControl());
 		map.addControl(new GLargeMapControl());
 		map.addControl(new GOverviewMapControl(new GSize(128,128)));
-    }
+	}
 }
 
 //-------------------------------------------------------------------
@@ -78,7 +78,7 @@ function setMarkers(res) {
 
 	if (! res.total_hit_count) {
 		_d("info", "該当情報が登録されていません。エラー番号:" + res.error.code);
-	
+
 	}
 	else {
 		_d("info", "検索ヒット数&nbsp;" + res.total_hit_count + "&nbsp;件");
